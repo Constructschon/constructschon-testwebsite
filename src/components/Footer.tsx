@@ -1,3 +1,5 @@
+import logoIcon from "@/assets/schon-icon.png";
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12">
@@ -5,10 +7,13 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Constructschon</h3>
-              <p className="text-background/80 leading-relaxed">
-                Sustainable Urban Development Inc.
-              </p>
+              <div className="flex items-center gap-2 mb-4">
+                <img src={logoIcon} alt="Constructschon" className="h-10 w-10" />
+                <div>
+                  <h3 className="text-xl font-bold">CONSTRUCTSCHÖN</h3>
+                  <p className="text-xs text-background/70">Sustainable Urban Development Inc.</p>
+                </div>
+              </div>
             </div>
             <div>
               <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
@@ -26,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="border-t border-background/20 pt-8 text-center text-background/60">
-            <p>&copy; {new Date().getFullYear()} Constructschon Sustainable Urban Development Inc. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Constructschön Sustainable Urban Development Inc. All rights reserved.</p>
           </div>
         </div>
       </div>

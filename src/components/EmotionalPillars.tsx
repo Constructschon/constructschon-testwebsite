@@ -36,7 +36,7 @@ const pillars = [
 
 const EmotionalPillars = () => {
   return (
-    <section className="py-24 bg-muted/30">
+    <section id="pillars" className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -56,13 +56,13 @@ const EmotionalPillars = () => {
                 className="group hover:shadow-elevated transition-all duration-300 hover:-translate-y-2 border-border bg-card"
               >
                 <CardContent className="p-8">
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                    <Icon className="w-7 h-7 text-primary" />
+                  <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:bg-secondary/20 transition-colors">
+                    <Icon className="w-7 h-7 text-secondary" />
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">
                     {pillar.title}
                   </h3>
-                  <p className="text-sm font-medium text-accent mb-3">
+                  <p className="text-sm font-medium text-primary mb-3">
                     {pillar.tagline}
                   </p>
                   <p className="text-muted-foreground leading-relaxed">

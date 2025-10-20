@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 const CTASection = () => {
   return (
-    <section className="py-24 bg-primary text-primary-foreground">
+    <section id="contact" className="py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">

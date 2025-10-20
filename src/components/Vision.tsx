@@ -1,16 +1,16 @@
 const Vision = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="vision" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Beyond Energy Efficiency
             </h2>
-            <div className="w-24 h-1 bg-accent mx-auto mb-8" />
+            <div className="w-24 h-1 bg-secondary mx-auto mb-8" />
           </div>
 
-          <blockquote className="text-xl md:text-2xl text-foreground/90 leading-relaxed text-center italic mb-12 px-4">
+          <blockquote className="text-xl md:text-2xl text-foreground/90 leading-relaxed text-center font-garamond italic mb-12 px-4">
             "Sustainability is beyond energy efficiency. It's about multi-generational living, 
             mixed-use development, social connection, food security, economics, and commerce. 
             It's about elevating our communities and designing thoughtfully—challenging the 
@@ -20,15 +20,15 @@ const Vision = () => {
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="text-center p-6">
-              <div className="text-5xl font-bold text-accent mb-2">20+</div>
+              <div className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-2">20+</div>
               <p className="text-muted-foreground">Years of Impact</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-5xl font-bold text-accent mb-2">100%</div>
+              <div className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-2">100%</div>
               <p className="text-muted-foreground">Sustainable Focus</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-5xl font-bold text-accent mb-2">∞</div>
+              <div className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-2">∞</div>
               <p className="text-muted-foreground">Generational Value</p>
             </div>
           </div>

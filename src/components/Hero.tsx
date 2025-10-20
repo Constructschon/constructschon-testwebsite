@@ -26,6 +26,9 @@ const Hero = () => {
             size="lg" 
             variant="secondary"
             className="text-lg px-8 py-6 shadow-elevated transition-all hover:scale-105"
+            onClick={() => {
+              document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
             Explore Our Vision
           </Button>
@@ -33,6 +36,9 @@ const Hero = () => {
             size="lg" 
             variant="outline"
             className="text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all hover:scale-105"
+            onClick={() => {
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
             Start a Project
           </Button>

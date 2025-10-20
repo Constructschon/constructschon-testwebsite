@@ -15,16 +15,43 @@ const Header = () => {
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#vision" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a 
+              href="#vision" 
+              className="text-foreground hover:text-primary transition-colors font-medium"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Vision
             </a>
-            <a href="#approach" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a 
+              href="#approach" 
+              className="text-foreground hover:text-primary transition-colors font-medium"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('approach')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Approach
             </a>
-            <a href="#pillars" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a 
+              href="#pillars" 
+              className="text-foreground hover:text-primary transition-colors font-medium"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('pillars')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Foundation
             </a>
-            <Button variant="default" className="bg-primary hover:bg-primary/90">
+            <Button 
+              variant="default" 
+              className="bg-primary hover:bg-primary/90"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Contact Us
             </Button>
           </nav>

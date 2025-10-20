@@ -18,10 +18,54 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
               <ul className="space-y-2">
-                <li><a href="#vision" className="text-background/80 hover:text-background transition-colors">Our Vision</a></li>
-                <li><a href="#approach" className="text-background/80 hover:text-background transition-colors">Approach</a></li>
-                <li><a href="#pillars" className="text-background/80 hover:text-background transition-colors">Foundation</a></li>
-                <li><a href="#contact" className="text-background/80 hover:text-background transition-colors">Contact</a></li>
+                <li>
+                  <a 
+                    href="#vision" 
+                    className="text-background/80 hover:text-background transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    Our Vision
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="#approach" 
+                    className="text-background/80 hover:text-background transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById('approach')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    Approach
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="#pillars" 
+                    className="text-background/80 hover:text-background transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById('pillars')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    Foundation
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="#contact" 
+                    className="text-background/80 hover:text-background transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    Contact
+                  </a>
+                </li>
               </ul>
             </div>
             <div>

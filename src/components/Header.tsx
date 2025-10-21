@@ -9,7 +9,7 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <img src={logoIcon} alt="Constructschon" className="h-12 w-12" />
             <div className="flex flex-col">
-              <span className="font-bold text-xl text-primary">CONSTRUCTSCHÖN</span>
+              <span className="font-bold text-xl" style={{ color: 'hsl(var(--logo-pink))' }}>CONSTRUCTSCHÖN</span>
               <span className="text-xs text-muted-foreground tracking-wide">SUSTAINABLE URBAN DEVELOPMENT</span>
             </div>
           </div>

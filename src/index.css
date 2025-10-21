@@ -49,6 +49,10 @@ All colors MUST be HSL.
     --brand-gold: 43 85% 55%;
     --brand-teal-light: 186 60% 55%;
     
+    /* Original logo colors - Pink & Green */
+    --logo-pink: 326 100% 39%;
+    --logo-green: 168 100% 30%;
+    
     /* Gradients */
     --gradient-brand: linear-gradient(135deg, hsl(var(--brand-teal)), hsl(var(--brand-amber)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--brand-teal) / 0.95), hsl(var(--brand-teal) / 0.85));

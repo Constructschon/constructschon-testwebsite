@@ -10,48 +10,21 @@ const Header = () => {
             <img src={logoIcon} alt="Constructschon" className="h-12 w-12" />
             <div className="flex flex-col">
               <span className="font-bold text-xl text-primary">CONSTRUCTSCHÖN</span>
-              <span className="text-xs text-muted-foreground tracking-wide">COMMERCIAL · TENANT IMPROVEMENTS · LIGHT INDUSTRIAL</span>
+              <span className="text-xs text-muted-foreground tracking-wide">SUSTAINABLE URBAN DEVELOPMENT</span>
             </div>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
-            <a 
-              href="#vision" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
+            <a href="#vision" className="text-foreground hover:text-primary transition-colors font-medium">
               Vision
             </a>
-            <a 
-              href="#approach" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('approach')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
+            <a href="#approach" className="text-foreground hover:text-primary transition-colors font-medium">
               Approach
             </a>
-            <a 
-              href="#pillars" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('pillars')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
+            <a href="#pillars" className="text-foreground hover:text-primary transition-colors font-medium">
               Foundation
             </a>
-            <Button 
-              variant="default" 
-              className="bg-primary hover:bg-primary/90"
-              onClick={() => {
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
+            <Button variant="default" className="bg-primary hover:bg-primary/90">
               Contact Us
             </Button>
           </nav>

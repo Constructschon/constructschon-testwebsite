@@ -9,7 +9,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/60 via-primary/50 to-primary/40" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/85 to-primary/75" />
       </div>
 
       {/* Content */}
@@ -18,17 +18,14 @@ const Hero = () => {
           Building Beyond Structures
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/95 max-w-3xl mx-auto mb-8 leading-relaxed">
-          Specializing in commercial construction, tenant improvements, and light industrial projects 
-          with a focus on sustainable design and quality craftsmanship.
+          We create sustainable communities where multi-generational living, social connection, 
+          and thoughtful design shape the future of urban development.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
             size="lg" 
             variant="secondary"
             className="text-lg px-8 py-6 shadow-elevated transition-all hover:scale-105"
-            onClick={() => {
-              document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' });
-            }}
           >
             Explore Our Vision
           </Button>
@@ -36,9 +33,6 @@ const Hero = () => {
             size="lg" 
             variant="outline"
             className="text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all hover:scale-105"
-            onClick={() => {
-              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-            }}
           >
             Start a Project
           </Button>

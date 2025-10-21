@@ -11,10 +11,11 @@ const Vision = () => {
           </div>
 
           <blockquote className="text-xl md:text-2xl text-foreground/90 leading-relaxed text-center font-garamond italic mb-12 px-4">
-            "We create sustainable communities where multi-generational living, social connection, 
-            and thoughtful design shape the future. Sustainability is beyond energy efficiency. 
-            It's about mixed-use development, food security, economics, and commerce—elevating 
-            our communities and challenging the status quo of what the built environment looks like."
+            "Sustainability is beyond energy efficiency. It's about multi-generational living, 
+            mixed-use development, social connection, food security, economics, and commerce. 
+            It's about elevating our communities and designing thoughtfully—challenging the 
+            status quo of what the built environment looks like and decolonizing spaces in a 
+            way that commercial and light industrial builds further society."
           </blockquote>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">

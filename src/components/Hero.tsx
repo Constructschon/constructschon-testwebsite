@@ -18,8 +18,8 @@ const Hero = () => {
           Building Beyond Structures
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/95 max-w-3xl mx-auto mb-8 leading-relaxed">
-          We create sustainable communities where multi-generational living, social connection, 
-          and thoughtful design shape the future of urban development.
+          From sustainable residential communities to commercial and light industrial projects, 
+          we bring thoughtful design and quality craftsmanship to every build.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 

@@ -1,4 +1,4 @@
-import { Shield, Award, Users, Lightbulb, Heart } from "lucide-react";
+import { Shield, Award, Users, Lightbulb, Heart, Handshake } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const pillars = [
@@ -32,6 +32,12 @@ const pillars = [
     tagline: "Purpose & Responsibility",
     description: "Buildings should serve society. We design to heal—people, communities, and ecosystems.",
   },
+  {
+    icon: Handshake,
+    title: "Trust",
+    tagline: "Integrity, Transparency & Consistency",
+    description: "Transparency is our contract. We keep promises in both process and performance—every detail, every dialogue, every design decision built on trust.",
+  },
 ];
 
 const EmotionalPillars = () => {
@@ -43,7 +49,7 @@ const EmotionalPillars = () => {
             Our Foundation
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Five emotional pillars that guide everything we build
+            Six emotional pillars that guide everything we build
           </p>
         </div>
 

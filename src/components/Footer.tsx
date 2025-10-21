@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center">
+            <div className="text-center -ml-8">
               <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
               <ul className="space-y-2">
                 <li><a href="#vision" className="text-background/80 hover:text-background transition-colors">Our Vision</a></li>

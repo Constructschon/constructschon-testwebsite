@@ -14,6 +14,9 @@ const Footer = () => {
                   <p className="text-xs text-background/70">Sustainable Urban Development Inc.</p>
                 </div>
               </div>
+              <p className="text-background/80 text-sm leading-relaxed">
+                Building communities where multi-generational living and thoughtful design shape the future.
+              </p>
             </div>
             <div>
               <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
@@ -25,9 +28,22 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4 text-lg">Connect</h4>
-              <p className="text-background/80 mb-2">Building the future, together.</p>
-              <p className="text-background/80">Every project shapes tomorrow.</p>
+              <h4 className="font-semibold mb-4 text-lg">Get in Touch</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a href="mailto:info@constructschon.com" className="text-background/80 hover:text-background transition-colors">
+                    info@constructschon.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+16476785776" className="text-background/80 hover:text-background transition-colors">
+                    (647) 678-5776
+                  </a>
+                </li>
+              </ul>
+              <p className="text-background/70 text-sm mt-4">
+                Building the future, together.
+              </p>
             </div>
           </div>
           <div className="border-t border-background/20 pt-8 text-center text-background/60">

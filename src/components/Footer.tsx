@@ -28,8 +28,8 @@ const Footer = () => {
               <h4 className="font-semibold mb-4 text-lg">Get in Touch</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="mailto:info@constructschon.com" className="text-background/80 hover:text-background transition-colors">
-                    info@constructschon.com
+                  <a href="mailto:info@constructschon.ca" className="text-background/80 hover:text-background transition-colors">
+                    info@constructschon.ca
                   </a>
                 </li>
                 <li>

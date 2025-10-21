@@ -54,8 +54,8 @@ const CTASection = () => {
           <div className="mt-16 text-center">
             <p className="text-primary-foreground/80 mb-4">Or reach us directly:</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="mailto:info@constructschon.com" className="text-primary-foreground hover:text-accent transition-colors text-lg">
-                info@constructschon.com
+              <a href="mailto:info@constructschon.ca" className="text-primary-foreground hover:text-accent transition-colors text-lg">
+                info@constructschon.ca
               </a>
               <span className="hidden sm:block text-primary-foreground/50">•</span>
               <a href="tel:+16476785776" className="text-primary-foreground hover:text-accent transition-colors text-lg">

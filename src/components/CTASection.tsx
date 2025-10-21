@@ -58,8 +58,8 @@ const CTASection = () => {
                 info@constructschon.com
               </a>
               <span className="hidden sm:block text-primary-foreground/50">•</span>
-              <a href="tel:+1234567890" className="text-primary-foreground hover:text-accent transition-colors text-lg">
-                (123) 456-7890
+              <a href="tel:+16476785776" className="text-primary-foreground hover:text-accent transition-colors text-lg">
+                (647) 678-5776
               </a>
             </div>
           </div>

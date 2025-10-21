@@ -10,7 +10,7 @@ const Header = () => {
             <img src={logoIcon} alt="Constructschon" className="h-12 w-12" />
             <div className="flex flex-col">
               <span className="font-bold text-xl text-primary">CONSTRUCTSCHÖN</span>
-              <span className="text-xs text-muted-foreground tracking-wide">RESIDENTIAL · COMMERCIAL · LIGHT INDUSTRIAL</span>
+              <span className="text-xs text-muted-foreground tracking-wide">COMMERCIAL · TENANT IMPROVEMENTS · LIGHT INDUSTRIAL</span>
             </div>
           </div>
 

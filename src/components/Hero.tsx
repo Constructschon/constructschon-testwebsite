@@ -18,8 +18,8 @@ const Hero = () => {
           Building Beyond Structures
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/95 max-w-3xl mx-auto mb-8 leading-relaxed">
-          From sustainable residential communities to commercial and light industrial projects, 
-          we bring thoughtful design and quality craftsmanship to every build.
+          Specializing in commercial construction, tenant improvements, and light industrial projects 
+          with a focus on sustainable design and quality craftsmanship.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 

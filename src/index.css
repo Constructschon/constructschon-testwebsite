@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 25%;
 
-    /* Light Pink - Brand Color */
-    --primary: 326 100% 70%;
+    /* Light Green - Brand Color */
+    --primary: 168 100% 45%;
     --primary-foreground: 0 0% 100%;
 
     /* Warm Amber - Energy & Optimism */
@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 326 100% 70%;
+    --ring: 168 100% 45%;
 
     --radius: 0.75rem;
 
@@ -76,7 +76,7 @@ All colors MUST be HSL.
     --popover: 0 1% 30%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 326 95% 75%;
+    --primary: 168 95% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 43 85% 65%;
@@ -93,7 +93,7 @@ All colors MUST be HSL.
 
     --border: 0 1% 35%;
     --input: 0 1% 35%;
-    --ring: 326 95% 75%;
+    --ring: 168 95% 50%;
   }
 }
 

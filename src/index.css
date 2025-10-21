@@ -17,46 +17,46 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 25%;
 
-    /* Brand Pink - Softened */
-    --primary: 326 75% 55%;
+    /* Deep Teal - Trust & Sustainability */
+    --primary: 186 75% 40%;
     --primary-foreground: 0 0% 100%;
 
-    /* Brand Green - Softened */
-    --secondary: 168 70% 45%;
-    --secondary-foreground: 0 0% 100%;
+    /* Warm Amber - Energy & Optimism */
+    --secondary: 43 90% 60%;
+    --secondary-foreground: 0 0% 20%;
 
     /* Neutral light grey for muted elements */
     --muted: 0 0% 95%;
     --muted-foreground: 0 0% 40%;
 
-    /* Brand Green as accent */
-    --accent: 168 100% 30%;
-    --accent-foreground: 0 0% 100%;
+    /* Warm Gold as accent */
+    --accent: 43 85% 55%;
+    --accent-foreground: 0 0% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 326 100% 39%;
+    --ring: 186 75% 40%;
 
     --radius: 0.75rem;
 
-    /* Custom brand colors - Softened palette */
-    --brand-pink: 326 75% 55%;
-    --brand-green: 168 70% 45%;
+    /* Custom brand colors - Trust & Energy palette */
+    --brand-teal: 186 75% 40%;
+    --brand-amber: 43 90% 60%;
     --brand-black: 0 1% 26%;
-    --brand-yellow: 46 85% 77%;
-    --brand-coral: 336 85% 75%;
+    --brand-gold: 43 85% 55%;
+    --brand-teal-light: 186 60% 55%;
     
     /* Gradients */
-    --gradient-brand: linear-gradient(135deg, hsl(var(--brand-pink)), hsl(var(--brand-green)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-pink) / 0.95), hsl(var(--brand-pink) / 0.85));
-    --gradient-accent: linear-gradient(90deg, hsl(var(--brand-pink)), hsl(var(--brand-green)));
+    --gradient-brand: linear-gradient(135deg, hsl(var(--brand-teal)), hsl(var(--brand-amber)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-teal) / 0.95), hsl(var(--brand-teal) / 0.85));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--brand-teal)), hsl(var(--brand-amber)));
     
     /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(var(--brand-pink) / 0.15);
-    --shadow-elevated: 0 10px 40px -10px hsl(var(--brand-pink) / 0.25);
+    --shadow-soft: 0 4px 20px -4px hsl(var(--brand-teal) / 0.2);
+    --shadow-elevated: 0 10px 40px -10px hsl(var(--brand-teal) / 0.3);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -72,24 +72,24 @@ All colors MUST be HSL.
     --popover: 0 1% 30%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 326 70% 60%;
+    --primary: 186 70% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 168 65% 50%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 43 85% 65%;
+    --secondary-foreground: 0 0% 20%;
 
     --muted: 0 1% 35%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 168 100% 35%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 43 80% 60%;
+    --accent-foreground: 0 0% 20%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 1% 35%;
     --input: 0 1% 35%;
-    --ring: 326 100% 50%;
+    --ring: 186 70% 45%;
   }
 }
 

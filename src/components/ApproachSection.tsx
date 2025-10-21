@@ -1,12 +1,12 @@
 import { CheckCircle } from "lucide-react";
 
 const approaches = [
-  "Multi-generational living spaces that adapt to changing family needs",
-  "Mixed-use developments that integrate work, life, and commerce",
-  "Walkable communities designed for human connection",
-  "Food security through integrated urban agriculture",
-  "Economic resilience via local employment and sustainable commerce",
-  "Decolonized spaces that honor heritage and community identity",
+  "Commercial construction built for long-term value and adaptability",
+  "Tenant improvements that transform spaces to meet your business needs",
+  "Light industrial facilities designed for efficiency and sustainability",
+  "Sustainable materials and practices across all project types",
+  "Collaborative approach ensuring your vision comes to life",
+  "Quality craftsmanship with attention to every detail",
 ];
 
 const ApproachSection = () => {
@@ -18,7 +18,7 @@ const ApproachSection = () => {
             Our Approach
           </h2>
           <p className="text-xl text-muted-foreground text-center mb-12">
-            We don't just build homes—we build neighborhoods
+            From concept to completion, we deliver exceptional results
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">

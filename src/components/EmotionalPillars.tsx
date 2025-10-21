@@ -6,31 +6,31 @@ const pillars = [
     icon: Shield,
     title: "Safety",
     tagline: "Clarity, Control & Calm",
-    description: "We make construction predictable. You'll always know what's happening and why—no unwanted surprises for your family or business.",
+    description: "We make construction predictable. You'll always know what's happening and why—no unwanted surprises for your project or business.",
   },
   {
     icon: Award,
     title: "Pride",
     tagline: "Craftsmanship & Legacy",
-    description: "You're shaping the next generation of sustainable living. We build with integrity so you can live with pride.",
+    description: "You're investing in quality construction that stands the test of time. We build with integrity so you can operate with pride.",
   },
   {
     icon: Users,
     title: "Belonging",
     tagline: "Connection & Purpose",
-    description: "We build places that bring people together. Our developments are designed for conversation, not separation.",
+    description: "We build spaces that serve your business and community. Our projects are designed to foster collaboration and success.",
   },
   {
     icon: Lightbulb,
     title: "Hope",
     tagline: "Optimism Through Design",
-    description: "Every Constructschon project adds long-term value to life and land. We design for generations, not quarterly returns.",
+    description: "Every Constructschön project adds long-term value. We design and build for lasting performance and sustainable growth.",
   },
   {
     icon: Heart,
     title: "Meaning",
     tagline: "Purpose & Responsibility",
-    description: "Buildings should serve society. We design to heal—people, communities, and ecosystems.",
+    description: "Buildings should serve business and society. We design and construct spaces that contribute positively to the environment and community.",
   },
 ];
 

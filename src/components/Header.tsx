@@ -24,8 +24,8 @@ const Header = () => {
             <a href="#pillars" className="text-foreground hover:text-primary transition-colors font-medium">
               Foundation
             </a>
-            <Button variant="default" className="bg-primary hover:bg-primary/90">
-              Contact Us
+            <Button variant="default" className="bg-primary hover:bg-primary/90" asChild>
+              <a href="#contact">Contact Us</a>
             </Button>
           </nav>
         </div>

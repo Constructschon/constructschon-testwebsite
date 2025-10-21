@@ -26,15 +26,17 @@ const Hero = () => {
             size="lg" 
             variant="secondary"
             className="text-lg px-8 py-6 shadow-elevated transition-all hover:scale-105"
+            asChild
           >
-            Explore Our Vision
+            <a href="#vision">Explore Our Vision</a>
           </Button>
           <Button 
             size="lg" 
             variant="outline"
             className="text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all hover:scale-105"
+            asChild
           >
-            Start a Project
+            <a href="#contact">Start a Project</a>
           </Button>
         </div>
       </div>

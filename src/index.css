@@ -17,12 +17,12 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 25%;
 
-    /* Brand Pink - PANTONE 233 C (#C6007E) */
-    --primary: 326 100% 39%;
+    /* Brand Pink - Softened */
+    --primary: 326 75% 55%;
     --primary-foreground: 0 0% 100%;
 
-    /* Brand Green - PANTONE 327B C (#009B77) */
-    --secondary: 168 100% 30%;
+    /* Brand Green - Softened */
+    --secondary: 168 70% 45%;
     --secondary-foreground: 0 0% 100%;
 
     /* Neutral light grey for muted elements */
@@ -42,12 +42,12 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom brand colors */
-    --brand-pink: 326 100% 39%;
-    --brand-green: 168 100% 30%;
+    /* Custom brand colors - Softened palette */
+    --brand-pink: 326 75% 55%;
+    --brand-green: 168 70% 45%;
     --brand-black: 0 1% 26%;
-    --brand-yellow: 46 100% 77%;
-    --brand-coral: 336 100% 75%;
+    --brand-yellow: 46 85% 77%;
+    --brand-coral: 336 85% 75%;
     
     /* Gradients */
     --gradient-brand: linear-gradient(135deg, hsl(var(--brand-pink)), hsl(var(--brand-green)));
@@ -72,10 +72,10 @@ All colors MUST be HSL.
     --popover: 0 1% 30%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 326 100% 50%;
+    --primary: 326 70% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 168 100% 35%;
+    --secondary: 168 65% 50%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 0 1% 35%;

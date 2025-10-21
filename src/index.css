@@ -17,21 +17,21 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 25%;
 
-    /* Brand Teal Light - Primary Color */
-    --primary: 186 60% 55%;
+    /* Trust & Calm - Deep Teal Blue */
+    --primary: 186 65% 48%;
     --primary-foreground: 0 0% 100%;
 
-    /* Warm Amber - Energy & Optimism */
-    --secondary: 43 90% 60%;
-    --secondary-foreground: 0 0% 20%;
+    /* Dependable - Soft Blue Grey */
+    --secondary: 200 20% 60%;
+    --secondary-foreground: 0 0% 15%;
 
-    /* Neutral light grey for muted elements */
-    --muted: 0 0% 95%;
-    --muted-foreground: 0 0% 40%;
+    /* Calm - Light neutral grey */
+    --muted: 200 15% 95%;
+    --muted-foreground: 200 10% 45%;
 
-    /* Warm Gold as accent */
-    --accent: 43 85% 55%;
-    --accent-foreground: 0 0% 20%;
+    /* Subtle accent - Muted teal */
+    --accent: 186 40% 85%;
+    --accent-foreground: 186 65% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -42,21 +42,21 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom brand colors - Trust & Energy palette */
-    --brand-teal: 186 75% 40%;
-    --brand-amber: 43 90% 60%;
+    /* Custom brand colors - Trust & Calm palette */
+    --brand-teal: 186 65% 48%;
+    --brand-teal-deep: 186 75% 35%;
+    --brand-blue-grey: 200 20% 60%;
     --brand-black: 0 1% 26%;
-    --brand-gold: 43 85% 55%;
-    --brand-teal-light: 186 60% 55%;
+    --brand-teal-light: 186 50% 70%;
     
     /* Original logo colors - Pink & Green */
     --logo-pink: 326 100% 39%;
     --logo-green: 168 100% 30%;
     
-    /* Gradients */
-    --gradient-brand: linear-gradient(135deg, hsl(var(--brand-teal)), hsl(var(--brand-amber)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-teal) / 0.95), hsl(var(--brand-teal) / 0.85));
-    --gradient-accent: linear-gradient(90deg, hsl(var(--brand-teal)), hsl(var(--brand-amber)));
+    /* Gradients - Calm & Trust */
+    --gradient-brand: linear-gradient(135deg, hsl(var(--brand-teal-deep)), hsl(var(--brand-teal)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-teal) / 0.95), hsl(var(--brand-teal-light) / 0.85));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--brand-teal)), hsl(var(--brand-blue-grey)));
     
     /* Shadows */
     --shadow-soft: 0 4px 20px -4px hsl(var(--brand-teal) / 0.2);
@@ -76,17 +76,17 @@ All colors MUST be HSL.
     --popover: 0 1% 30%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 186 55% 60%;
+    --primary: 186 60% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 43 85% 65%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 200 18% 55%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 0 1% 35%;
-    --muted-foreground: 0 0% 70%;
+    --muted: 200 10% 30%;
+    --muted-foreground: 200 10% 70%;
 
-    --accent: 43 80% 60%;
-    --accent-foreground: 0 0% 20%;
+    --accent: 186 35% 45%;
+    --accent-foreground: 0 0% 95%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 100%;

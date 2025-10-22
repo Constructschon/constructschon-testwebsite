@@ -1,4 +1,6 @@
 import logoIcon from "@/assets/schon-icon.png";
+import hqImage from "@/assets/hq-building.jpg";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
@@ -8,8 +10,18 @@ const Footer = () => {
       
       <div className="py-12">
         <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="max-w-6xl mx-auto">
+            {/* HQ Image Section */}
+            <div className="mb-12 rounded-xl overflow-hidden">
+              <img 
+                src={hqImage} 
+                alt="Constructschön Headquarters" 
+                className="w-full h-64 object-cover"
+                style={{ filter: 'saturate(0.8)' }}
+              />
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <img src={logoIcon} alt="Constructschon" className="h-10 w-10" />
@@ -30,7 +42,7 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="font-semibold mb-4 text-lg">Get in Touch</h4>
-              <ul className="space-y-3">
+              <ul className="space-y-3 mb-6">
                 <li>
                   <a href="mailto:info@constructschon.ca" className="text-background/80 hover:text-background transition-colors text-lg">
                     info@constructschon.ca
@@ -42,8 +54,37 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
+              <Button 
+                className="hover:scale-105 transition-all"
+                style={{ 
+                  background: 'hsl(var(--accent-gold))',
+                  color: 'hsl(var(--brand-black))',
+                  fontWeight: '600'
+                }}
+                asChild
+              >
+                <a href="/about">Meet the Team →</a>
+              </Button>
             </div>
           </div>
+
+          {/* Google Map Section */}
+          <div className="mb-8">
+            <h4 className="font-semibold text-lg mb-4 text-center">Visit Us</h4>
+            <div className="rounded-xl overflow-hidden" style={{ filter: 'grayscale(20%) contrast(0.9)' }}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.6!2d-113.4938!3d53.5461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDMyJzQ2LjAiTiAxMTPCsDI5JzM3LjciVw!5e0!3m2!1sen!2sca!4v1234567890"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Constructschön Location"
+              />
+            </div>
+          </div>
+
           <div className="border-t border-background/20 pt-8 text-center text-background/60">
             <p>&copy; {new Date().getFullYear()} Constructschön Sustainable Urban Development Inc. All rights reserved.</p>
           </div>

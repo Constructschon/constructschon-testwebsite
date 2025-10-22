@@ -1,17 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import blueprintImage from "@/assets/blueprint-overlay.jpg";
 
 const CTASection = () => {
   return (
     <section id="contact" className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{ 
-          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-          backgroundSize: '40px 40px'
-        }} />
-      </div>
+      {/* Blueprint Background with Parallax */}
+      <div 
+        className="absolute inset-0 opacity-15"
+        style={{ 
+          backgroundImage: `url(${blueprintImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          transform: 'translateZ(0)',
+        }}
+      />
+      
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/80 to-primary/60" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">

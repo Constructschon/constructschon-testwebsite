@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-sustainable-development.jpg";
+import heroImage from "@/assets/hero-community-living.jpg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background Image with Overlay */}
+      {/* Background Image with Parallax Effect */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center hero-parallax"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/85 to-primary/75" />
+        {/* Tricolor Gradient Overlay */}
+        <div className="absolute inset-0" style={{ 
+          background: 'linear-gradient(135deg, hsl(var(--logo-pink) / 0.75), hsl(var(--brand-teal) / 0.80), hsl(var(--logo-green) / 0.70))'
+        }} />
       </div>
 
       {/* Content */}

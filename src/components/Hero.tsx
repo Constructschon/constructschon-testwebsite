@@ -17,23 +17,30 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
           Building Beyond Structures
         </h1>
-        <p className="text-xl md:text-2xl text-primary-foreground/95 max-w-3xl mx-auto mb-8 leading-relaxed">
+        <p className="text-xl md:text-2xl text-primary-foreground/95 max-w-3xl mx-auto mb-4 leading-relaxed">
           We create sustainable communities where multi-generational living, social connection, 
           and thoughtful design shape the future of urban development.
+        </p>
+        <p className="text-lg md:text-xl text-primary-foreground/85 max-w-2xl mx-auto mb-8 italic font-garamond">
+          For families, for communities, for generations.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
             size="lg" 
-            variant="secondary"
-            className="text-lg px-8 py-6 shadow-elevated transition-all hover:scale-105"
+            className="text-lg px-8 py-6 transition-all hover:scale-105"
+            style={{ 
+              background: 'hsl(var(--logo-green))',
+              color: 'white',
+              boxShadow: 'var(--shadow-elevated)'
+            }}
             asChild
           >
             <a href="#vision">Explore Our Vision</a>
           </Button>
           <Button 
             size="lg" 
-            variant="secondary"
-            className="text-lg px-8 py-6 shadow-elevated transition-all hover:scale-105"
+            variant="outline"
+            className="text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all hover:scale-105"
             asChild
           >
             <a href="#contact">Start a Project</a>

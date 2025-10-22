@@ -2,8 +2,12 @@ import logoIcon from "@/assets/schon-icon.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-background py-12">
-      <div className="container mx-auto px-4">
+    <footer className="bg-foreground text-background">
+      {/* Tricolor Bar */}
+      <div className="tricolor-bar" />
+      
+      <div className="py-12">
+        <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -26,14 +30,14 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="font-semibold mb-4 text-lg">Get in Touch</h4>
-              <ul className="space-y-2">
+              <ul className="space-y-3">
                 <li>
-                  <a href="mailto:info@constructschon.ca" className="text-background/80 hover:text-background transition-colors">
+                  <a href="mailto:info@constructschon.ca" className="text-background/80 hover:text-background transition-colors text-lg">
                     info@constructschon.ca
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+16476785776" className="text-background/80 hover:text-background transition-colors">
+                  <a href="tel:+16476785776" className="text-background/80 hover:text-background transition-colors text-lg">
                     (647) 678-5776
                   </a>
                 </li>
@@ -44,6 +48,7 @@ const Footer = () => {
             <p>&copy; {new Date().getFullYear()} Constructschön Sustainable Urban Development Inc. All rights reserved.</p>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );

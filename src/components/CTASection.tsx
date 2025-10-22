@@ -4,16 +4,27 @@ import { Textarea } from "@/components/ui/textarea";
 
 const CTASection = () => {
   return (
-    <section id="contact" className="py-24 bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0" style={{ 
+          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+          backgroundSize: '40px 40px'
+        }} />
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Ready to Build Your Legacy?
             </h2>
-            <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+            <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-4">
               Every project we touch should make people feel safer, prouder, and more connected—
               because that's how real sustainability starts.
+            </p>
+            <p className="text-lg text-primary-foreground/80 italic font-garamond">
+              Your vision, our craftsmanship — building legacy through design.
             </p>
           </div>
 
@@ -43,10 +54,15 @@ const CTASection = () => {
               </div>
               <Button 
                 size="lg" 
-                variant="secondary"
-                className="w-full md:w-auto px-12 py-6 text-lg shadow-elevated hover:scale-105 transition-all"
+                className="w-full md:w-auto px-12 py-6 text-lg hover:scale-105 transition-all"
+                style={{ 
+                  background: 'hsl(var(--accent-gold))',
+                  color: 'hsl(var(--brand-black))',
+                  boxShadow: '0 10px 40px -10px hsl(var(--accent-gold) / 0.5)',
+                  fontWeight: '600'
+                }}
               >
-                Start the Conversation
+                Start Your Project
               </Button>
             </form>
           </div>

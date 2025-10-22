@@ -17,17 +17,21 @@ const ApproachSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">
             Our Approach
           </h2>
-          <p className="text-xl text-muted-foreground text-center mb-12">
+          <p className="text-xl text-muted-foreground text-center mb-3">
             We don't just build homes—we build neighborhoods
+          </p>
+          <p className="text-lg text-center mb-12 font-medium" style={{ color: 'hsl(var(--logo-green))' }}>
+            We build places where life happens together.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
             {approaches.map((approach, index) => (
               <div 
                 key={index}
-                className="flex items-start gap-4 p-6 bg-card rounded-xl border border-border hover:shadow-soft transition-all"
+                className="flex items-start gap-4 p-6 bg-card rounded-xl border border-border hover:shadow-soft transition-all animate-fade-in hover-lift"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <CheckCircle className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: 'hsl(var(--logo-green))' }} />
                 <p className="text-foreground leading-relaxed">{approach}</p>
               </div>
             ))}

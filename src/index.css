@@ -49,18 +49,34 @@ All colors MUST be HSL.
     --brand-black: 0 1% 26%;
     --brand-teal-light: 186 50% 70%;
     
-    /* Original logo colors - Pink & Green */
+    /* Original logo colors - Pink & Green for CTAs and accents */
     --logo-pink: 326 100% 39%;
-    --logo-green: 168 100% 30%;
+    --logo-green: 168 100% 35%;
     
-    /* Gradients - Calm & Trust */
+    /* Warm accent colors for visual energy */
+    --accent-coral: 14 90% 65%;
+    --accent-amber: 38 92% 62%;
+    --accent-gold: 45 93% 58%;
+    
+    /* Individual pillar colors */
+    --pillar-safety: 200 80% 92%;
+    --pillar-pride: 45 90% 92%;
+    --pillar-belonging: 150 60% 92%;
+    --pillar-hope: 168 50% 92%;
+    --pillar-meaning: 40 40% 95%;
+    --pillar-trust: 200 15% 90%;
+    
+    /* Gradients - Enhanced with logo colors */
     --gradient-brand: linear-gradient(135deg, hsl(var(--brand-teal-deep)), hsl(var(--brand-teal)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--brand-teal) / 0.95), hsl(var(--brand-teal-light) / 0.85));
     --gradient-accent: linear-gradient(90deg, hsl(var(--brand-teal)), hsl(var(--brand-blue-grey)));
+    --gradient-tricolor: linear-gradient(90deg, hsl(var(--logo-pink)), hsl(var(--logo-green)), hsl(var(--brand-black)));
+    --gradient-cta: linear-gradient(135deg, hsl(var(--logo-green)), hsl(168 100% 40%));
     
-    /* Shadows */
+    /* Shadows - Enhanced */
     --shadow-soft: 0 4px 20px -4px hsl(var(--brand-teal) / 0.2);
     --shadow-elevated: 0 10px 40px -10px hsl(var(--brand-teal) / 0.3);
+    --shadow-glow: 0 0 30px hsl(var(--logo-green) / 0.2);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -104,5 +120,20 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Utility classes */
+  .tricolor-bar {
+    height: 3px;
+    background: var(--gradient-tricolor);
+  }
+  
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-elevated);
   }
 }

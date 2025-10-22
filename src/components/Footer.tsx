@@ -70,17 +70,17 @@ const Footer = () => {
 
           {/* Google Map Section */}
           <div className="mb-8">
-            <h4 className="font-semibold text-lg mb-4 text-center">Visit Us</h4>
+            <h4 className="font-semibold text-lg mb-4 text-center">Find Us in Edmonton</h4>
             <div className="rounded-xl overflow-hidden" style={{ filter: 'grayscale(20%) contrast(0.9)' }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.6!2d-113.4938!3d53.5461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDMyJzQ2LjAiTiAxMTPCsDI5JzM3LjciVw!5e0!3m2!1sen!2sca!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232043.24!2d-113.6195!3d53.5461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0224580deff23%3A0x411fa00c4af6155d!2sEdmonton%2C%20AB!5e0!3m2!1sen!2sca!4v1234567890"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Constructschön Location"
+                title="Edmonton Location"
               />
             </div>
           </div>

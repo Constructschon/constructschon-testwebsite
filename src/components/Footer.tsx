@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-background">
+    <footer className="text-background" style={{ background: 'hsl(var(--brand-teal-deep))' }}>
       {/* Tricolor Bar */}
       <div className="tricolor-bar" />
       

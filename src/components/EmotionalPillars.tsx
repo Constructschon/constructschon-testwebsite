@@ -62,7 +62,7 @@ const EmotionalPillars = () => {
             Our Foundation
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Six emotional pillars that guide everything we build
+            six pillars that guide everything we build
           </p>
         </div>
 
